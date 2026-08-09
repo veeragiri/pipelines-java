@@ -1,0 +1,5 @@
+ webapp deployment slot swap \
+  --name app-myapp-prod \
+  --resource-group rg-prod \
+  --slot staging \
+  --target-slot production
