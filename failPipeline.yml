@@ -18,4 +18,4 @@ steps:
     set -e
     echo "##vso[task.logissue type=error]Failing this step intentionally."
     exit 1
-  displayName: 'Force Bash Failure
+
